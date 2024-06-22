@@ -6,10 +6,10 @@ from ..functions.filters import OWNER_FILTER
 reply_markup = InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="Source", url="https://github.com/X-Gorn/BulkLoader"),
-        InlineKeyboardButton(text="LinkTree", url="https://xgorn.is-a.dev"),
+            text="DEVELOPER", url="https://t.me/REAL_HACKHEIST"),
+        InlineKeyboardButton(text="HELP", url="https://t.me/onlymessages_bot"),
     ],
-    [InlineKeyboardButton(text="Author", url="https://t.me/xgorn")],
+    [InlineKeyboardButton(text="🤩𝗝𝗢𝗜𝗡 𝗔𝗗𝗗𝗟𝗜𝗦𝗧", url="https://t.me/addlist/rMLA4niKz9xjYjg1")],
 ])
 
 
