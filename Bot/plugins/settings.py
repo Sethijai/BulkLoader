@@ -24,7 +24,7 @@ async def custom_caption(bot: Client, update: Message):
             return await update.reply(
                 text='Ex: `/caption abcdfgh`'
             )
-        caption = ""
+        caption = "HACKHEIST"
         await update.reply(text='Custom caption cleared.')
     client.custom_caption[update.from_user.id] = caption
 
@@ -42,7 +42,7 @@ async def custom_thumbnail(bot: Client, update: Message):
             return await update.reply(
                 text='Reply to a photo or `/thumbnail https.....jpg`'
             )
-        thumbnail = None
+        thumbnail = "https://telegra.ph/file/bd21f0b96f8af58016488.jpg"
         await update.reply(text='Custom thumbnail cleared.')
     client.custom_thumbnail[update.from_user.id] = thumbnail
 
